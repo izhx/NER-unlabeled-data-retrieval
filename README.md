@@ -1,6 +1,7 @@
 # NER-unlabeled-data-retrieval
 [COLING 22] Domain-Specific NER via Retrieving Correlated Samples.
 
+arxiv [http://arxiv.org/abs/2208.12995](http://arxiv.org/abs/2208.12995)
 
 ## Usage
 
