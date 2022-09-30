@@ -17,7 +17,7 @@ The above `add` and `add-ret` correspond to the filename in the `config/` dictio
 
 
 Notes:
-1. `plm_dir` and `plm_name` are used to set the path of pretrained models from huggingface or local filepath, they can be set to `plm_dir=""` and `plm_name="bert-base-chinese"` to load a Chinese BERT from huggingface.
+1. In each config file, `plm_dir` and `plm_name` are used to set the path of pretrained models from huggingface or local filepath, they can be set to `plm_dir=""` and `plm_name="bert-base-chinese"` to load a Chinese BERT from huggingface.
 
 
 ## Data
