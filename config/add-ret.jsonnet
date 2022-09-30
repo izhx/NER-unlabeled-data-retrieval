@@ -4,7 +4,6 @@ local plm_dir = "/nas-alinlp/linzhang.zx/models/";
 // local plm_dir = "/home/data/embedding/";
 local plm_name = "nezha-base";
 
-// local ori_dir = "/nas-alinlp/linzhang.zx/address/files/retrieval-4m/";
 local low = std.extVar("DATA_LOW");
 local data = {
     dir: "data/address/",

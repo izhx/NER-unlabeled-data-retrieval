@@ -1,6 +1,5 @@
 // Import template file.
 local template = import "template/bert-crf.libsonnet";
-local ori_dir = "/nas-alinlp/linzhang.zx/address/";
 local plm_dir = "/nas-alinlp/linzhang.zx/models/";
 // local plm_dir = "/home/data/embedding/";
 local plm_name = "nezha-base";

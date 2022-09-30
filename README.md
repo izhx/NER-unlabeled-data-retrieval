@@ -15,6 +15,10 @@ To train a baseline Cross-Encoder model on the address dataset:
 The above `add` and `add-ret` correspond to the filename in the `config/` dictionary. They could be replaced with `eco` and `eco-ret` to run the e-commerce dataset experiments.
 
 
+Notes:
+1. `plm_dir` and `plm_name` are used to set the path of pretrained models from huggingface or local filepath, they can be set to `plm_dir=""` and `plm_name="bert-base-chinese"` to load a Chinese BERT from huggingface.
+
+
 ## Data
 
 The address domain dataset is comes from [CCKS2021中文地址要素解析数据集](https://tianchi.aliyun.com/dataset/dataDetail?dataId=109339).
