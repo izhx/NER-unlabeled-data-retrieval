@@ -32,9 +32,7 @@ function (data, model, trainer) {
     trainer: {
         [if std.length(cuda) < 2 then "cuda_device"]: if std.length(cuda) > 0 then 0 else -1,
         patience: 3,
-        validation_metric: "+f1-measure-overall",
-        callbacks: [ { type: "distributed_test" } ],
-        checkpointer: { keep_most_recent_by_count: 1 }
+        validation_metric: "+f1-measure-overall"
     } + trainer,
     vocabulary: { type: "from_files", directory: data.dir + "/vocabulary" },
     [if std.length(cuda) > 1 then "distributed"]: {
