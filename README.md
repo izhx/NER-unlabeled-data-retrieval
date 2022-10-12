@@ -1,7 +1,7 @@
 # NER-unlabeled-data-retrieval
 [COLING 22] Domain-Specific NER via Retrieving Correlated Samples.
 
-arxiv [http://arxiv.org/abs/2208.12995](http://arxiv.org/abs/2208.12995)
+arxiv [http://arxiv.org/abs/2208.12995](http://arxiv.org/abs/2208.12995) is with updated address devset results.
 
 ## Usage
 
@@ -35,18 +35,20 @@ All experiments are conducted at Alibaba Damo Academy, the results in the paper 
 
 ```
 @inproceedings{zhang-etal-2022-domain,
-title = "Domain-Specific NER via Retrieving Correlated Samples",
-author = "Zhang, Xin  and
-    Yong, Jiang  and
-    Wang, Xiaobin  and
-    Hu, Xuming  and
-    Sun, Yueheng  and
-    Xie, Pengjun  and
-    Zhang, Meishan",
-booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
-month = oct,
-year = "2022",
-address = "Gyeongju, Republic of Korea",
-publisher = "International Committee on Computational Linguistics"
+    title = "Domain-Specific {NER} via Retrieving Correlated Samples",
+    author = "Zhang, Xin  and
+      Jiang, Yong  and
+      Wang, Xiaobin  and
+      Hu, Xuming  and
+      Sun, Yueheng  and
+      Xie, Pengjun  and
+      Zhang, Meishan",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.211",
+    pages = "2398--2404",
 }
 ```
